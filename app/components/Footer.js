@@ -29,7 +29,7 @@ class Footer extends React.Component {
 		let leaderboardCharacters = this.state.characters.map((character) => {
 			return(
 				<li key={character.characterId}>
-					<Link to={'/characters' + character.characterId}>
+					<Link to={'/characters/' + character.characterId}>
 						<img className='thumb-md' src={'http://image.eveonline.com/Character/' + character.characterId + '_128.jpg'} />
 					</Link>
 				</li>
