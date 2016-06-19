@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js"
+    "postinstall": "bower install && gulp build"
   },
   "babel": {
     "presets": ["es2015", "react"]
